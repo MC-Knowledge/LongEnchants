@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "longenchants",
+  "version": "${version}",
+  "name": "Long Enchants",
+  "description": "64-bit enchantment values with numeric tooltips above level 10.",
+  "authors": ["mck / ChatGPT"],
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.mck.longenchants.LongEnchants"],
+    "client": ["com.mck.longenchants.client.LongEnchantsClient"]
+  },
+  "mixins": ["longenchants.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.5",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

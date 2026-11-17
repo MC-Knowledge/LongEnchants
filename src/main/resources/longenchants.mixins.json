@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.mck.longenchants.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": ["EnchantmentNameMixin", "ItemEnchantmentsComponentMixin", "ItemEnchantmentsBuilderMixin"],
+  "injectors": {"defaultRequire": 1}
+}
